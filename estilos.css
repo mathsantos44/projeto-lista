@@ -1,0 +1,72 @@
+body {
+    background: #ECFAB4;
+    text-align: center;
+    font: normal 15pt sans-serif;
+}
+
+header {
+    color: black;
+    cursor: default;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+section {
+    background: #E8FF8A;
+    color: #2A3400;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 10px;
+    border-radius: 5px;
+    padding: 1px 0px;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+}
+
+footer {
+    color: #2A3400;
+    cursor: default;
+}
+
+#txtlista {
+    margin: 10px 15px;
+    height: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 15pt;
+    padding: 2px 10px;
+    border-radius: 10px;
+    background: #DBE6B0;
+    border: none;
+    box-shadow: 0px 0px 10px;
+}
+
+#botao {
+    margin: 10px 10px;
+    cursor: pointer;
+    height: 25px;
+    border-radius: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 15pt;
+    background: #DBE6B0;
+    border: none;
+    box-shadow: 0px 0px 10px;
+}
+
+.remove {
+    margin: 0px 10px;
+    cursor: pointer;
+    background: #9FC602;
+    border: none;
+    box-shadow: 0px 0px 10px;
+    border-radius: 50%;
+}
+
+li {
+    list-style: none;
+    font-size: 17pt;
+}
+
+input:focus {
+    outline-color: #808b53;
+}
